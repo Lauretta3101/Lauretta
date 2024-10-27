@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lauretta</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="logo">
+        <img 1 src="Logo Stemba Putih.png" alt="logo 1">
+        <img src="sija.png" alt="logo 2">
+    </div>
+
+    <a href="https://instagram.com/_Lauretta.taaaa_" target="_blank" class="instagram-icon" aria-label="Instagram">
+        <img src="instagram_reveals_simplified_logo_and_app_design-removebg-preview.png" alt="Instagram">
+      </a>
+
+    <header>
+        <h1>Sejarah Zaman Neolitik</h1>
+        <p>Ebook Lauretta Josephine</p>
+        <button onclick="scrollToContent()">about</button> 
+    </header>
+
+
+    <section id="content">
+        <h2>MATERI</h2>
+        <div class="book-grid">
+            <div class="book-card">
+                <h3>Pengertian</h3>
+                <p>Apa yang dimaksud dengan zaman neolitik?</p>
+                <a href="pengertian.html">Lihat Selengkapnya</a>
+            </div>
+            <div class="book-card">
+                <h3>Corak kehidupan</h3>
+                <p>Bagaimana Corak kehidupan pada zaman neolitik?</p>
+                <a href="corakkehidupan.html">Lihat Selengkapnya</a>
+            </div>
+            <div class="book-card">
+                <h3>Hasil Budaya</h3>
+                <p>Apa saja hasil hasil budaya pada zaman neolitik?</p>
+                <a href="hasilbudaya.html">Lihat Selengkapnya</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Sejarah Zaman Neolitikum atau bercocok tanam.</p>
+    </footer>
+
+    <div class="ebook-card">
+        <p> </p>
+        <button onclick="pengertian.html" (Pengertian)></button>
+        <button onclick="corakkehdiupan.html" (corak)></button>
+        <button onclick="hasilbudaya.html"(hasilbudaya)></button>
+    </div>
+    <script>
+        function scrollToContent() {
+            document.getElementById("content").scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
